@@ -1,2 +1,2 @@
-# FROM alpine:9
+from alpine:9
 RUN dnf install nginx -y
