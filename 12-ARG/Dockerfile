@@ -16,7 +16,7 @@
 
 # how to access arg variables inside container?
 FROM almalinux:9
- ENV Name="Praneeth" \
+ENV Name="Praneeth" \
     Age="20" \
     Course=$Course
 ARG Course="Cse"
