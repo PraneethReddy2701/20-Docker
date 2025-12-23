@@ -18,7 +18,7 @@
 FROM almalinux:9
 ENV Name="Praneeth" \
     Age="20" 
-ENV Course=$Course
 ARG Course="Cse"
+ENV Course=$Course
 RUN echo "Hi, My name is ${Name} age is ${Age} and course joined ${Course}"
 CMD ["sleep", "1000"]
