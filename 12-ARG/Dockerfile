@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:{version:-9}
+FROM almalinux:${version:-9}
 ENV Name="Praneeth" \
     Age="20"
 ARG Course="Cse"
