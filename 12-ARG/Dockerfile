@@ -1,0 +1,6 @@
+FROM almalinu:9
+ENV Name="Praneeth"
+    Age="20"
+ARG Course="Cse"
+RUN echo "Hi, My name is ${Name} age is ${Age} and course joined ${Course}"
+CMD ["sleep", "1000"]
