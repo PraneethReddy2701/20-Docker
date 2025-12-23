@@ -1,4 +1,4 @@
-FROM almalinu:9
+FROM almalinux:9
 ENV Name="Praneeth" \
     Age="20"
 ARG Course="Cse"
